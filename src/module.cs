@@ -780,7 +780,7 @@ public unsafe class CustomCharacterModule : FhModule {
     private short[] custom_party_selected_node_idx = new short[num_characters - 7];
 
     private short[][] custom_starting_selected_node_idx = [
-            [0xe1, 0xe1, 0x14] // Next to Lulu
+            [0xF6, 0xF6, 0xAA] // Middle of the Fira/Blizzara/Thundara/Watera Cluster
         ];
 
     private ushort[][][] custom_starting_activated_nodes = [
